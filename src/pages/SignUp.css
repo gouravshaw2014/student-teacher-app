@@ -1,0 +1,42 @@
+/* Includes all auth styles from SignIn.css */
+@import './SignIn.css';
+
+.password-strength {
+  width: 100%;
+  height: 0.375rem;
+  background-color: #e5e7eb;
+  border-radius: 0.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.password-strength-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.password-weak {
+  background-color: #ef4444;
+  width: 25%;
+}
+
+.password-fair {
+  background-color: #f59e0b;
+  width: 50%;
+}
+
+.password-good {
+  background-color: #3b82f6;
+  width: 75%;
+}
+
+.password-strong {
+  background-color: #10b981;
+  width: 100%;
+}
+
+.password-text {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
